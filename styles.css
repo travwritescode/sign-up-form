@@ -55,4 +55,15 @@ body {
 
 .content {
     flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.first, .last, .mail,
+.phone, .password, .confirm-password {
+
+}
+
+label {
+    display: block;
 }
