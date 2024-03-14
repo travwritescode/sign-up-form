@@ -9,8 +9,48 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
     flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.banner-title {
+    background-color: rgb(0, 0, 0, .33);
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 33%;
+}
+
+.banner > p {
+    color: #fff;
+
+    margin-top: auto;
+}
+
+.banner > p > a {
+    color: #fff;
+}
+
+.banner-title > img {
+    max-height: 84px;
+    display: inline;
+    margin: 42px;
+    margin-right: 0px;
+}
+
+.title {
+    font-family: "neue-kabel", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 72px;
+    color: white;
+    display: inline;
+    margin: 42px;
 }
 
 .content {
