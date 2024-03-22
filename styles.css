@@ -57,11 +57,31 @@ body {
     flex-basis: 60%;
     display: flex;
     flex-direction: column;
+
+    padding: 50px;
+}
+
+.cta {
+    flex-basis: 33%;
+}
+
+form {
+    flex-basis: 33%;
+}
+
+.submit {
+    flex-basis: 33%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .first, .last, .mail,
 .phone, .password, .confirm-password {
-
+    width: 50%;
 }
 
 label {
