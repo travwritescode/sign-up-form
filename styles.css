@@ -58,15 +58,33 @@ body {
     display: flex;
     flex-direction: column;
 
-    padding: 50px;
+    font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+    font-weight: normal;
+
+    background-color: #F9FAFB;
+}
+
+.content > * {
+    padding-left: 50px;
 }
 
 .cta {
     flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.cta > p:last-child {
+    margin-bottom: 50px;
 }
 
 form {
     flex-basis: 33%;
+    background-color: #fff;
 }
 
 .submit {
@@ -86,4 +104,13 @@ form {
 
 label {
     display: block;
+}
+
+button {
+    padding: 15px;
+    background-color: #f77c47;
+}
+
+a {
+    color: #f77c47;
 }
