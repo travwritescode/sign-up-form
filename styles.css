@@ -1,3 +1,12 @@
+* {
+    font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+    font-weight: normal;
+}
+
+button {
+    all: unset;
+}
+
 body {
     display: flex;
     width: 100%;
@@ -30,10 +39,12 @@ body {
     color: #fff;
 
     margin-top: auto;
+    font-size: 12px;
 }
 
 .banner > p > a {
     color: #fff;
+    text-decoration: underline;
 }
 
 .banner-title > img {
@@ -57,9 +68,6 @@ body {
     flex-basis: 60%;
     display: flex;
     flex-direction: column;
-
-    font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
-    font-weight: normal;
 
     background-color: #F9FAFB;
 }
@@ -85,6 +93,7 @@ body {
 form {
     flex-basis: 33%;
     background-color: #fff;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
 }
 
 .submit {
@@ -100,17 +109,48 @@ form {
 .first, .last, .mail,
 .phone, .password, .confirm-password {
     width: 50%;
+    margin-bottom: 24px;
+}
+
+input {
+    padding: 6px 12px;
+}
+
+input:focus {
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 label {
     display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: smaller;
+}
+
+.submit {
+    margin-top: 48px;
 }
 
 button {
     padding: 15px;
     background-color: #f77c47;
+    border-radius: 10px;
+    padding: 12px 48px;
+
+    color: #fff;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.submit > p {
+    margin-top: 36px;
 }
 
 a {
     color: #f77c47;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
 }
