@@ -123,6 +123,24 @@ input {
 
 input:focus {
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    outline: 2px solid cornflowerblue;
+}
+
+input:invalid {
+    border: none;
+    outline: 2px solid #f77c47;
+}
+
+.password-invalid {
+    border: none;
+    outline: 2px solid #f77c47;
+}
+
+#password-error {
+    color: #f77c47;
+    font-size: x-small;
+    display: none;
 }
 
 label {
